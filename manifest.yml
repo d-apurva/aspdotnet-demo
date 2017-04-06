@@ -6,7 +6,7 @@ applications:
     PORT: 5000
   instances: 1
   domain: mybluemix.net
-  name: aspdotnet
-  host: aspdotnet
-  disk_quota: 1024M
+  name: aspdotnet-demo
+  host: aspdotnet-demo
+  disk_quota: 2G
   
