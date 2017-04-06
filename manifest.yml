@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  env:
+    CACHE_NUGET_PACKAGES: false
+  instances: 1
+  domain: mybluemix.net
+  name: aspdotnet
+  host: aspdotnet
+  disk_quota: 1024M
+  
