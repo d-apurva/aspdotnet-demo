@@ -3,6 +3,7 @@ applications:
   memory: 512M
   env:
     CACHE_NUGET_PACKAGES: false
+    PORT: 5000
   instances: 1
   domain: mybluemix.net
   name: aspdotnet
