@@ -1,0 +1,25 @@
+{
+    "Params": {
+        "DevMode": {
+            "Instrumentation": {
+                "command": "",
+                "env": {
+                    "BLUEMIX_APP_MGMT_ENABLE": "devconsole+shell+inspector",
+                    "NODE_ENV": "development"
+                },
+                "memory": "384M"
+            },
+            "Packager": "com.ibm.perfectstorm.cloudoe.packager.LiveEditDeploymentPackager"
+        },
+        "Name": "aspdotnet",
+        "Target": {
+            "Org": "75358739-0823-43b3-8a7c-6d4a6fd7e978",
+            "Space": "1410cd45-d5ab-4077-9384-95c4b8a5476a",
+            "Url": "https://api.ng.bluemix.net"
+        },
+        "Timeout": 60
+    },
+    "Path": "",
+    "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+    "Type": "Cloud Foundry"
+}
