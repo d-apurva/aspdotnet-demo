@@ -4,12 +4,12 @@ applications:
   env:
     CACHE_NUGET_PACKAGES: false
     PUBLISH_RELEASE_CONFIG: true
+    no-route: true
+    health-check-type: none
   instances: 1
   domain: mybluemix.net
   name: aspdotnet-demo
   host: aspdotnet-demo
-  disk_quota: 2G
-  server:
-    port: ${VCAP_APP_PORT} 
-  timeout : 180   
+  disk_quota: 2G  
+   
   
