@@ -3,7 +3,7 @@ applications:
   memory: 1G
   env:
     CACHE_NUGET_PACKAGES: false
-    PORT: 5000
+    listen_here: ENV['PORT']
   instances: 1
   domain: mybluemix.net
   name: aspdotnet-demo
