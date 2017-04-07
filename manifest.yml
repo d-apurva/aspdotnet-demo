@@ -8,4 +8,5 @@ applications:
   name: aspdotnet-demo
   host: aspdotnet-demo
   disk_quota: 2G
+  PORT: 5000
   
