@@ -9,6 +9,7 @@ applications:
   name: aspdotnet-demo
   host: aspdotnet-demo
   disk_quota: 2G
-  Port: 5000
+  server:
+    port: ${VCAP_APP_PORT} 
   timeout : 180   
   
