@@ -8,5 +8,6 @@ applications:
   name: aspdotnet-demo
   host: aspdotnet-demo
   disk_quota: 2G
-  PORT: 8080
+  Port: 5000
+  timeout : 180   
   
