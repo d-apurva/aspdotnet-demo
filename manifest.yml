@@ -3,13 +3,15 @@ applications:
   memory: 1G
   env:
     CACHE_NUGET_PACKAGES: false
-    PUBLISH_RELEASE_CONFIG: true
-    no-route: true
-    health-check-type: none
+    CF_STAGING_TIMEOUT: 30
+    CF_STARTUP_TIMEOUT: 30
+    HEALTH-CHECK-TIMEOUT: 30
   instances: 1
   domain: mybluemix.net
   name: aspdotnet-demo
   host: aspdotnet-demo
-  disk_quota: 2G  
-   
+  disk_quota: 1024M  
   
+  
+  
+ 
