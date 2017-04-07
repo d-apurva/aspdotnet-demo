@@ -2,7 +2,8 @@ applications:
 - path: .
   memory: 1G
   env:
-    CACHE_NUGET_PACKAGES: false   
+    CACHE_NUGET_PACKAGES: false
+    PUBLISH_RELEASE_CONFIG: true
   instances: 1
   domain: mybluemix.net
   name: aspdotnet-demo
